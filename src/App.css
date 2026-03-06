@@ -28,7 +28,7 @@ h1 {
   justify-content: center;
 }
 
-.error{
+.error {
   color: rgb(255, 36, 36);
   font-weight: 400;
   font-size: 20px;
@@ -83,7 +83,34 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
-.card button:hover , form button:hover  {
-  
+.card button:hover,
+.form button:hover {
   background-color: #0850a2;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 0 10px;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .form input,
+  .form button {
+    width: 100%;
+  }
+
+  .dashboard,
+  .card {
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }
