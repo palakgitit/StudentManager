@@ -49,4 +49,6 @@ The interface updates instantly using React state and events.
 
 ## ScreenShot
 
-![student activity manager](studentActivity.png)
+
+
+![alt text](studentActivity-1.png)
